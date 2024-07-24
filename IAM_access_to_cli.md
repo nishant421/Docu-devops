@@ -7,29 +7,25 @@
    - Open the AWS Management Console at [https://aws.amazon.com/](https://aws.amazon.com/).
    - Sign in with your AWS account credentials.
 
-2. **Navigate to the IAM Service:**
-   - In the AWS Management Console, click on "Services" in the top navigation bar.
-   - Under "Security, Identity, & Compliance," select "IAM" to open the Identity and Access Management (IAM) dashboard.
-
-3. **Add a New User:**
+2. **Add a New User:**
    - In the IAM dashboard, click on "Users" in the left-hand navigation pane.
    - Click the "Add user" button.
 
-4. **Set User Details:**
+3. **Set User Details:**
    - Enter a user name for the new user. This can be any name you choose.
    - Select the "Access type" as "Programmatic access" by checking the appropriate box. This will generate an access key ID and secret access key for the user to use with the AWS CLI, SDKs, or other development tools.
    
-5. **Assign Permissions:**
+4. **Assign Permissions:**
    - Click "Next: Permissions."
    - Select "Attach existing policies directly."
    - In the search box, type "AdministratorAccess" and check the corresponding box to attach the policy granting full access to all AWS services and resources.
 
-6. **Review and Create User:**
+5. **Review and Create User:**
    - Click "Next: Tags" to add optional tags to the user for organization and management purposes.
    - Click "Next: Review" to review the user's details and permissions.
    - Click "Create user" to create the user.
 
-7. **Create Access Keys:**
+6. **Create Access Keys:**
    - After creating the user, go to the "Users" section in the IAM dashboard and select the newly created user.
    - Click on the "Security credentials" tab.
    - Scroll down to the "Access keys" section and click "Create access key."
