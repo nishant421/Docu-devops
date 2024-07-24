@@ -54,6 +54,9 @@
      aws s3 ls
      ```
    - If the command executes successfully and returns a list of S3 buckets, the configuration is correct.
+  
+
+--------
 
 ### Documentation Template
 
