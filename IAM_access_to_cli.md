@@ -13,7 +13,6 @@
 
 3. **Set User Details:**
    - Enter a user name for the new user. This can be any name you choose.
-   - Select the "Access type" as "Programmatic access" by checking the appropriate box. This will generate an access key ID and secret access key for the user to use with the AWS CLI, SDKs, or other development tools.
    
 4. **Assign Permissions:**
    - Click "Next: Permissions."
